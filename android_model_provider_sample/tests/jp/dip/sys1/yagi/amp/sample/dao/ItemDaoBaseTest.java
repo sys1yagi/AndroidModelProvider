@@ -1,13 +1,23 @@
 package jp.dip.sys1.yagi.amp.sample.dao;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
-import junit.framework.TestCase;
+import org.junit.Test;
 
-public class ItemDaoBaseTest extends TestCase {
+import com.uphyca.testing.AndroidJUnit4TestAdapter;
+import com.uphyca.testing.AndroidTestCase;
 
+public class ItemDaoBaseTest extends AndroidTestCase{
+
+    /**
+     * For Eclipse with ADT
+     */
+    public static junit.framework.Test suite() {
+        return new AndroidJUnit4TestAdapter(ItemDaoBaseTest.class);
+    }
+    @Test
     public void testGetName(){
-        
-        assertTrue(true);
-        //assertThat(10, is(10));
+        assertThat(10, is(10));
     }
 }

@@ -7,7 +7,9 @@
     <uses-sdk
         android:minSdkVersion="10"
         android:targetSdkVersion="16" />
-    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="jp.dip.sys1.yagi.amp.sample"></instrumentation>
+    <instrumentation
+        android:name="com.uphyca.testing.JUnit4InstrumentationTestRunner"
+        android:targetPackage="jp.dip.sys1.yagi.amp.sample" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <uses-library android:name="android.test.runner" android:required="true"/>
+
+        <uses-library
+            android:name="android.test.runner"
+            android:required="true" />
     </application>
 
 </manifest>
