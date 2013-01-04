@@ -8,7 +8,7 @@
         android:minSdkVersion="10"
         android:targetSdkVersion="16" />
     <instrumentation
-        android:name="com.android.test.runner.AndroidJUnitRunner"
+        android:name="com.uphyca.testing.JUnit4InstrumentationTestRunner"
         android:targetPackage="jp.dip.sys1.yagi.amp.sample" />
 
     <application

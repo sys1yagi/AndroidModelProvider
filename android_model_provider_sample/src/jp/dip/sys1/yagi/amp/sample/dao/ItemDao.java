@@ -1,5 +1,5 @@
 package jp.dip.sys1.yagi.amp.sample.dao;
 
-public interface ItemDao {
+public class ItemDao extends ItemDaoBase{
 
 }

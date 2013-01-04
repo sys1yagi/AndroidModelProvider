@@ -3,7 +3,11 @@ package jp.dip.sys1.yagi.amp.sample;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
-
+/**
+ * RSSリーダーアプリ
+ * @author yagitoshihiro
+ *
+ */
 public class MainActivity extends Activity {
 
     @Override
@@ -14,7 +18,6 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
