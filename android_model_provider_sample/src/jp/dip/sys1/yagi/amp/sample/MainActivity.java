@@ -9,7 +9,14 @@ import android.view.Menu;
  *
  */
 public class MainActivity extends Activity {
-
+    /**
+     get this object for enclosing objects.
+     @return MainActivity this object.
+     */
+    public MainActivity This() {
+        return this;
+    }
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,5 +28,4 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
     }
-
 }

@@ -25,12 +25,14 @@ public class DBOpenHelperTest extends AndroidTestCase{
     public void setUp() throws Exception {
         //データベースを初期化する
         db = new DBOpenHelper(getContext());
+        db.dropTables();
+        db.onCreate(db.getWritableDatabase());
     }
     
     @Test
     public void dbがnullではない() {
-        //fail("Not yet implemented:"+context);
         assertThat(db, is((not(equalTo(null)))));
     }
+    
 
 }

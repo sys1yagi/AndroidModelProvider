@@ -2,6 +2,8 @@ package jp.dip.sys1.yagi.amp.sample.dao;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import jp.dip.sys1.yagi.amp.sample.amp.dao.Key;
+import jp.dip.sys1.yagi.amp.sample.amp.impl.ItemDao;
 
 import org.junit.After;
 import org.junit.Before;

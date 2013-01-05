@@ -1,4 +1,4 @@
-package jp.dip.sys1.yagi.amp.sample.dao;
+package jp.dip.sys1.yagi.amp.sample.amp.dao;
 
 /**
  * 主キーを表すクラス
