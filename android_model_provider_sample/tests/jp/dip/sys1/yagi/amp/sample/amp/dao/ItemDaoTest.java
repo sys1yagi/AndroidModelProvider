@@ -7,12 +7,12 @@ import org.junit.Test;
 
 import com.uphyca.testing.AndroidJUnit4TestAdapter;
 
-public class ItemDaoBaseTest{
+public class ItemDaoTest{
     /**
      * For Eclipse with ADT
      */
     public static junit.framework.Test suite() {
-        return new AndroidJUnit4TestAdapter(ItemDaoBaseTest.class);
+        return new AndroidJUnit4TestAdapter(ItemDaoTest.class);
     }
     @Test
     public void Itemテーブルにレコードを1件追加する(){

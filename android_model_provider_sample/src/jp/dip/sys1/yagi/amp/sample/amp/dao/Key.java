@@ -8,13 +8,13 @@ package jp.dip.sys1.yagi.amp.sample.amp.dao;
  */
 public class Key<T> {
 
-    private String _id = null;
+    private long _id = -1L;
 
-    public Key(String _id) {
+    public Key(long _id) {
         this._id = _id;
     }
 
-    public String getId() {
+    public long getId() {
         return _id;
     }
 }

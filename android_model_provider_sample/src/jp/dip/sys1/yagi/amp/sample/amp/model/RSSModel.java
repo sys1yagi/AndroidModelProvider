@@ -7,8 +7,9 @@ import jp.dip.sys1.yagi.amp.sample.amp.dao.Key;
  * 
  * @author yagitoshihiro
  */
-public class RSSModel {
+public class RSSModel implements IModel {
 
+    /** primary key. */
     private Key<RSSModel> mKey = null;
 
     /** The Rss url. */
@@ -21,7 +22,7 @@ public class RSSModel {
      * Instantiates a new rSS model.
      */
     public RSSModel() {
-        
+
     }
 
     public Key<RSSModel> getKey() {
