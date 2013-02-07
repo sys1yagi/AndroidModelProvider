@@ -1,8 +1,6 @@
 package jp.dip.sys1.yagi.amp.sample.amp.dao;
 
 
-import jp.dip.sys1.yagi.amp.sample.amp.dao.ItemDaoBase;
-
 import org.junit.Test;
 
 import com.uphyca.testing.AndroidJUnit4TestAdapter;
